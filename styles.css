@@ -1,0 +1,88 @@
+
+body{
+    background-color: aquamarine;
+}
+
+
+/* Template wrappers */
+
+#outer-wrapper{
+    -webkit-overflow-scrolling: touch;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#inner-wrapper{
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    z-index: 1;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -moz-flex-grow: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-grow: 0;
+    flex-grow: 0;
+    -moz-flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-shrink: 0;
+    flex-shrink: 0;
+    text-align: left;
+    -moz-transition: opacity 0.25s ease-in-out 0s;
+    -webkit-transition: opacity 0.25s ease-in-out 0s;
+    -ms-transition: opacity 0.25s ease-in-out 0s;
+    transition: opacity 0.25s ease-in-out 0s;
+}
+
+#content-container{
+    position: relative;
+    z-index: 1;
+    border-radius: inherit;
+    padding: 3rem 3rem;
+    max-width: 100%;
+    width: 60rem;
+}
+
+/* Typography */
+
+h1 {
+    font-family: "Helvetica Neue", "Arial", "sans-serif";
+    font-weight: bold;
+    font-size: xx-large;
+    color: #333333;
+}
+
+p {
+    font-family: "Helvetica Neue", "Arial", "sans-serif";
+    font-weight: normal;
+    font-size: large;
+    line-height: 2rem;
+    color: #333333;
+}
