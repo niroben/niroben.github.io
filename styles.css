@@ -86,3 +86,18 @@ p {
     line-height: 2rem;
     color: #333333;
 }
+
+.social-icons{
+    text-align: left;
+    margin-left: -40px;
+}
+
+a {
+    color: #ff537e;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
